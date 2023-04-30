@@ -8,13 +8,13 @@
 #
 
 START_LEVELS
-	LEVEL_H		0.0		0.7		0.5
-	LEVEL_L		0.0		0.7		0.0
-	LEVEL_G		0.0		0.7		-1.0
-	LEVEL_B		0.0		0.7		0.4
-	LEVEL_HL	0.0		0.7		0.5
-	LEVEL_LL	0.0		0.7		0.0
-	LEVEL_GL	0.0		0.7		-1.0
+	LEVEL_H		0.01		0.01		0.01
+	LEVEL_L		0.1		0.1		0.1
+	LEVEL_G		0.0		1.0		-1.0
+	LEVEL_B		10.0		10.0		10.0
+	LEVEL_HL	100.0		100.0		100.0
+	LEVEL_LL	1000.0		1000.0		1000.0
+	LEVEL_GL	0.0		10000.0		-10000.0
 END_COMBO
 
 # standard fist combo
