@@ -125,7 +125,7 @@ START_COMBO	SWORD
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		11.0	20.0	0.5		H			16		1	2
 	ATTACK2		15.0	22.0	0.5		H			17		1	2
-	ATTACK3		12.0	99.0	0.5		H			18		1	2
+	ATTACK3		12.0	25.0	0.5		H			18		1	2
 	AGROUND		18.0	30.0	0.4		G			19		3	3		4.0
 	AMOVING		8.0		10.0	0.5		HL			16		1	2
 	ABLOCK		6.0	100.0
