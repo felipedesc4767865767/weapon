@@ -8,12 +8,12 @@
 #
 
 START_LEVELS
-	LEVEL_H		0.01		0.01		0.01
-	LEVEL_L		0.1		0.1		0.1
+	LEVEL_H		0.0		0.01		0.01
+	LEVEL_L		0.0		0.1		0.1
 	LEVEL_G		0.0		1.0		-1.0
-	LEVEL_B		10.0		10.0		10.0
-	LEVEL_HL	100.0		100.0		100.0
-	LEVEL_LL	1000.0		1000.0		1000.0
+	LEVEL_B		0.0		10.0		10.0
+	LEVEL_HL	0.0		100.0		100.0
+	LEVEL_LL	0.0		1000.0		1000.0
 	LEVEL_GL	0.0		10000.0		-10000.0
 END_COMBO
 
@@ -35,7 +35,7 @@ END_COMBO
 # boxing combo (LS gym)
 START_COMBO	UNARMED_2
 	ANIMGROUP	melee_2
-	RANGES		1.6
+	RANGES		2.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		 6.0	18.0	0.4		L			2		8	8
 	ATTACK2		 8.0	27.0	0.4		H			3		8	8
@@ -50,7 +50,7 @@ END_COMBO
 # kung-fu combo (SF gym)
 START_COMBO	UNARMED_3
 	ANIMGROUP	melee_3
-	RANGES		1.6
+	RANGES		3.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		9.0		15.0	0.4		H			4		8	8
 	ATTACK2		13.0	23.0	0.4		H			5		8	8
@@ -65,7 +65,7 @@ END_COMBO
 # toughguy combo (LV gym)
 START_COMBO	UNARMED_4
 	ANIMGROUP	melee_4
-	RANGES		1.6
+	RANGES		4.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		13.0	25.0	0.4		L			8		8	8	
 	ATTACK2		6.0		48.0	0.5		HL			9		8	8
@@ -79,7 +79,7 @@ END_COMBO
 
 START_COMBO	BBALLBAT
 	ANIMGROUP	bbbat_1
-	RANGES		1.6
+	RANGES		5.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		11.0	22.0	0.5		L			2		2	2
 	ATTACK2		14.0	28.0	0.5		L			3		2	2
@@ -93,7 +93,7 @@ END_COMBO
 
 START_COMBO	KNIFE
 	ANIMGROUP	knife_1
-	RANGES		1.6
+	RANGES		6.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		8.0		20.0	0.4		H			4		1	2
 	ATTACK2		9.0		24.0	0.4		H			5		1	2
@@ -107,7 +107,7 @@ END_COMBO
 
 START_COMBO	GOLFCLUB
 	ANIMGROUP	bbbat_1
-	RANGES		1.6
+	RANGES		7.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		11.0	20.0	0.5		H			8		1	2
 	ATTACK2		11.0	21.0	0.5		H			9		1	2
@@ -121,7 +121,7 @@ END_COMBO
 
 START_COMBO	SWORD
 	ANIMGROUP	sword_1
-	RANGES		1.6
+	RANGES		8.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		11.0	20.0	0.5		H			16		1	2
 	ATTACK2		15.0	22.0	0.5		H			17		1	2
@@ -135,7 +135,7 @@ END_COMBO
 
 START_COMBO	CHAINSAW
 	ANIMGROUP	csaw_1
-	RANGES		1.6
+	RANGES		9.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		14.0	25.0	0.5		LL			32		2	2
 	ATTACK2		14.0	20.0	0.5		LL			42		2	2
@@ -149,7 +149,7 @@ END_COMBO
 
 #START_COMBO	SKATEBOARD
 #	ANIMGROUP	sk8_1
-#	RANGES		1.6
+#	RANGES		8.6
 #	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 #	ATTACK1		11.0	20.0	0.5		H			1		1	2
 #	ATTACK2		11.0	21.0	0.5		H			2		1	2
@@ -163,7 +163,7 @@ END_COMBO
 
 START_COMBO	DILDO
 	ANIMGROUP	dildo_1
-	RANGES		1.6
+	RANGES		7.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		11.0	22.0	0.5		L			1		2	2
 	ATTACK2		15.0	28.0	0.5		L			2		2	2
@@ -177,7 +177,7 @@ END_COMBO
 
 START_COMBO	FLOWERS
 	ANIMGROUP	flowers_1
-	RANGES		1.6
+	RANGES		6.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		6.0		21.0	0.5		H			1		1	2
 	ATTACK2		15.0	28.0	0.5		L			1		2	2
@@ -192,7 +192,7 @@ END_COMBO
 # std extra combo (punch + kick)
 START_COMBO	KICK_STD
 	ANIMGROUP	kick_std
-	RANGES		1.6
+	RANGES		5.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		6.0		16.0	0.5		L			2		8	8
 	ATTACK2		10.0	99.0	0.5		HL			4		8	8
@@ -206,7 +206,7 @@ END_COMBO
 
 START_COMBO	PISTOL_WHIP
 	ANIMGROUP	pistlwhp
-	RANGES		1.6
+	RANGES		4.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
 	ATTACK1		7.0		99.0	0.5		L			10		2	2
 	ATTACK2		7.0		99.0	0.5		L			11		2	2
