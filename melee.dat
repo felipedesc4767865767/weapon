@@ -137,11 +137,11 @@ START_COMBO	CHAINSAW
 	ANIMGROUP	csaw_1
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		14.0	25.0	0.5		LL			29		2	2
-	ATTACK2		14.0	20.0	0.5		LL			30		2	2
-	ATTACK3		13.0	99.0	0.5		LL			31		2	2
-	AGROUND		10.0	11.0	0.4		G			32		3	3		9.0
-	AMOVING		1.0		1.1		0.4		LL			33		2	2
+	ATTACK1		14.0	25.0	0.5		LL			129		2	2
+	ATTACK2		14.0	20.0	0.5		LL			230		2	2
+	ATTACK3		13.0	99.0	0.5		LL			431		2	2
+	AGROUND		10.0	11.0	0.4		G			532		3	3		9.0
+	AMOVING		1.0		1.1		0.4		LL			633		2	2
 	ABLOCK		6.0	100.0
 	#----------------
 	FLAGS		0x44f
