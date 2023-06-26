@@ -22,11 +22,11 @@ START_COMBO	UNARMED_1
 	ANIMGROUP	melee_1
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		5.0		10.0	0.4		H			11		5	6			
-	ATTACK2		8.0		17.0	0.4		H			12		5	6
-	ATTACK3		10.0	20.0	0.4		H			13		1	2
-	AGROUND		10.5	20.0	0.4		G			14		4	4		8.5
-	AMOVING		7.0		10.0	0.4		HL			15		5	6
+	ATTACK1		5.0		10.0	0.4		H			1		5	6			
+	ATTACK2		8.0		17.0	0.4		H			2		5	6
+	ATTACK3		10.0	20.0	0.4		H			3		1	2
+	AGROUND		10.5	20.0	0.4		G			4		4	4		8.5
+	AMOVING		7.0		10.0	0.4		HL			5		5	6
 	ABLOCK		6.0		11.0
 	#----------------
 	FLAGS		0x60f
@@ -37,12 +37,12 @@ START_COMBO	UNARMED_2
 	ANIMGROUP	melee_2
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		 6.0	18.0	0.4		L			16		8	8
-	ATTACK2		 8.0	27.0	0.4		H			17		8	8
-	ATTACK3		11.0	99.0	0.4		H			18		8	8
-	AGROUND		12.0	21.0	0.4		G			19		4	4		8.0
-	AMOVING		4.0		10.0	0.35	HL			20		8	8
-	ABLOCK		6.0		11.0
+	ATTACK1		 6.0	18.0	0.4		L			6		8	8
+	ATTACK2		 8.0	27.0	0.4		H			7		8	8
+	ATTACK3		11.0	99.0	0.4		H			8		8	8
+	AGROUND		12.0	21.0	0.4		G			9		4	4		8.0
+	AMOVING		4.0		10.0	0.35	HL			10		8	8
+	ABLOCK		6.0		22.0
 	#----------------
 	FLAGS		0x64f
 END_COMBO
@@ -52,12 +52,12 @@ START_COMBO	UNARMED_3
 	ANIMGROUP	melee_3
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		9.0		15.0	0.4		H			21		8	8
-	ATTACK2		13.0	23.0	0.4		H			22		8	8
-	ATTACK3		15.0	99.0	0.4		H			23		8	8
-	AGROUND		8.0		17.0	0.4		G			24		4	4		4.0
-	AMOVING		7.0		10.0	0.4		HL			25		8	8
-	ABLOCK		6.0		100.0
+	ATTACK1		9.0		15.0	0.4		H			11		8	8
+	ATTACK2		13.0	23.0	0.4		H			12		8	8
+	ATTACK3		15.0	99.0	0.4		H			13		8	8
+	AGROUND		8.0		17.0	0.4		G			13		4	4		4.0
+	AMOVING		7.0		10.0	0.4		HL			14		8	8
+	ABLOCK		6.0		44.0
 	#----------------
 	FLAGS		0x64f
 END_COMBO
@@ -67,12 +67,12 @@ START_COMBO	UNARMED_4
 	ANIMGROUP	melee_4
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		13.0	25.0	0.4		L			26		8	8	
-	ATTACK2		6.0		48.0	0.5		HL			27		8	8
-	ATTACK3		9.0		99.0	0.4		L			28		8	8
-	AGROUND		11.0	99.0	0.4		G			29		4	4		4.0
-	AMOVING		9.0		10.0	0.4		HL			30		8	8
-	ABLOCK		6.0		100.0
+	ATTACK1		13.0	25.0	0.4		L			15		8	8	
+	ATTACK2		6.0		48.0	0.5		HL			16		8	8
+	ATTACK3		9.0		99.0	0.4		L			17		8	8
+	AGROUND		11.0	99.0	0.4		G			18		4	4		4.0
+	AMOVING		9.0		10.0	0.4		HL			19		8	8
+	ABLOCK		6.0		88.0
 	#----------------
 	FLAGS		0x264f
 END_COMBO
@@ -81,12 +81,12 @@ START_COMBO	BBALLBAT
 	ANIMGROUP	bbbat_1
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		11.0	22.0	0.5		L			11		2	2
-	ATTACK2		14.0	28.0	0.5		L			12		2	2
-	ATTACK3		13.0	99.0	0.5		L			13		2	2
-	AGROUND		18.0	30.0	0.4		GL			14		3	3		7.0
-	AMOVING		11.0	13.0	0.5		LL			13		2	2
-	ABLOCK		6.0	100.0
+	ATTACK1		11.0	22.0	0.5		L			1		2	2
+	ATTACK2		14.0	28.0	0.5		L			2		2	2
+	ATTACK3		13.0	99.0	0.5		L			3		2	2
+	AGROUND		18.0	30.0	0.4		GL			4		3	3		7.0
+	AMOVING		11.0	13.0	0.5		LL			5		2	2
+	ABLOCK		6.0	1.0
 	#----------------
 	FLAGS		0x64f
 END_COMBO
@@ -95,12 +95,12 @@ START_COMBO	KNIFE
 	ANIMGROUP	knife_1
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		8.0		20.0	0.4		H			14		1	2
-	ATTACK2		9.0		24.0	0.4		H			15		1	2
-	ATTACK3		10.0	99.0	0.4		H			16		1	2
-	AGROUND		11.0	21.0	0.4		G			17		3	3		10.0
-	AMOVING		6.0		10.0	0.4		HL			18		1	2
-	ABLOCK		6.0	100.0
+	ATTACK1		8.0		20.0	0.4		H			6		1	2
+	ATTACK2		9.0		24.0	0.4		H			7		1	2
+	ATTACK3		10.0	99.0	0.4		H			8		1	2
+	AGROUND		11.0	21.0	0.4		G			9		3	3		10.0
+	AMOVING		6.0		10.0	0.4		HL			10		1	2
+	ABLOCK		6.0	2.0
 	#----------------
 	FLAGS		0x64f
 END_COMBO
@@ -109,12 +109,12 @@ START_COMBO	GOLFCLUB
 	ANIMGROUP	bbbat_1
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		11.0	20.0	0.5		H			19		1	2
-	ATTACK2		11.0	21.0	0.5		H			20		1	2
-	ATTACK3		15.0	99.0	0.5		H			21		1	2
-	AGROUND		18.0	30.0	0.5		G			22		3	3		4.0
-	AMOVING		11.0	10.0	0.5		HL			23		1	2
-	ABLOCK		100.0	100.0
+	ATTACK1		11.0	20.0	0.5		H			11		1	2
+	ATTACK2		11.0	21.0	0.5		H			12		1	2
+	ATTACK3		15.0	99.0	0.5		H			13		1	2
+	AGROUND		18.0	30.0	0.5		G			14		3	3		4.0
+	AMOVING		11.0	10.0	0.5		HL			15		1	2
+	ABLOCK		100.0	4.0
 	#----------------
 	FLAGS		0x00f
 END_COMBO
@@ -123,12 +123,12 @@ START_COMBO	SWORD
 	ANIMGROUP	sword_1
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		11.0	20.0	0.5		H			24		1	2
-	ATTACK2		15.0	22.0	0.5		H			25		1	2
-	ATTACK3		12.0	99.0	0.5		H			26		1	2
-	AGROUND		18.0	30.0	0.4		G			27		3	3		4.0
-	AMOVING		8.0		10.0	0.5		HL			28		1	2
-	ABLOCK		6.0	100.0
+	ATTACK1		11.0	20.0	0.5		H			16		1	2
+	ATTACK2		15.0	22.0	0.5		H			17		1	2
+	ATTACK3		12.0	99.0	0.5		H			18		1	2
+	AGROUND		18.0	30.0	0.4		G			19		3	3		4.0
+	AMOVING		8.0		10.0	0.5		HL			20		1	2
+	ABLOCK		6.0	8.0
 	#----------------
 	FLAGS		0x64f
 END_COMBO
@@ -137,12 +137,12 @@ START_COMBO	CHAINSAW
 	ANIMGROUP	csaw_1
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		14.0	25.0	0.5		LL			129		2	2
-	ATTACK2		14.0	20.0	0.5		LL			230		2	2
-	ATTACK3		13.0	99.0	0.5		LL			431		2	2
-	AGROUND		10.0	11.0	0.4		G			532		3	3		9.0
-	AMOVING		1.0		1.1		0.4		LL			633		2	2
-	ABLOCK		6.0	100.0
+	ATTACK1		14.0	25.0	0.5		LL			21		2	2
+	ATTACK2		14.0	20.0	0.5		LL			22		2	2
+	ATTACK3		13.0	99.0	0.5		LL			23		2	2
+	AGROUND		10.0	11.0	0.4		G			24		3	3		9.0
+	AMOVING		1.0		1.1		0.4		LL			25		2	2
+	ABLOCK		6.0	16.0
 	#----------------
 	FLAGS		0x44f
 END_COMBO
@@ -151,12 +151,12 @@ END_COMBO
 #	ANIMGROUP	sk8_1
 #	RANGES		1.6
 #	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-#	ATTACK1		11.0	20.0	0.5		H			10		1	2
-#	ATTACK2		11.0	21.0	0.5		H			11		1	2
-#	ATTACK3		15.0	99.0	0.5		H			12		1	2
-#	AGROUND		10.0	20.0	0.5		G			13		3	3		7.0
-#	AMOVING		6.0		10.0	1.0		HL			14		1	2
-#	ABLOCK		100.0	100.0
+#	ATTACK1		11.0	20.0	0.5		H			1		1	2
+#	ATTACK2		11.0	21.0	0.5		H			2		1	2
+#	ATTACK3		15.0	99.0	0.5		H			3		1	2
+#	AGROUND		10.0	20.0	0.5		G			4		3	3		7.0
+#	AMOVING		6.0		10.0	1.0		HL			5		1	2
+#	ABLOCK		6.0	32.0
 #	#----------------
 #	FLAGS		0x007
 #END_COMBO
@@ -165,12 +165,12 @@ START_COMBO	DILDO
 	ANIMGROUP	dildo_1
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		11.0	22.0	0.5		L			15		2	2
-	ATTACK2		15.0	28.0	0.5		L			16		2	2
-	ATTACK3		13.0	99.0	0.5		L			17		2	2
-	AGROUND		18.0	30.0	0.5		G			18		3	3		7.0
-	AMOVING		11.0	13.0	0.5		LL			19		2	2
-	ABLOCK		6.0	100.0
+	ATTACK1		11.0	22.0	0.5		L			6		2	2
+	ATTACK2		15.0	28.0	0.5		L			7		2	2
+	ATTACK3		13.0	99.0	0.5		L			8		2	2
+	AGROUND		18.0	30.0	0.5		G			9		3	3		7.0
+	AMOVING		11.0	13.0	0.5		LL			10		2	2
+	ABLOCK		6.0	64.0
 	#----------------
 	FLAGS		0x607
 END_COMBO
@@ -179,11 +179,11 @@ START_COMBO	FLOWERS
 	ANIMGROUP	flowers_1
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		6.0		21.0	0.5		H			20		1	2
-	ATTACK2		15.0	28.0	0.5		L			21		2	2
-	ATTACK3		13.0	99.0	0.5		L			22		2	2
-	AGROUND		18.0	30.0	0.5		G			23		4	4		7.0
-	AMOVING		11.0	13.0	0.5		HL			24		1	2
+	ATTACK1		6.0		21.0	0.5		H			1		1	2
+	ATTACK2		15.0	28.0	0.5		L			2		2	2
+	ATTACK3		13.0	99.0	0.5		L			3		2	2
+	AGROUND		18.0	30.0	0.5		G			4		4	4		7.0
+	AMOVING		11.0	13.0	0.5		HL			5		1	2
 	ABLOCK		6.0	100.0
 	#----------------
 	FLAGS		0x00
@@ -194,12 +194,12 @@ START_COMBO	KICK_STD
 	ANIMGROUP	kick_std
 	RANGES		1.6
 	#-----------hit-----chain---radius--hitlevel----damage--hit-altHit--groundLoop
-	ATTACK1		6.0		16.0	0.5		L			10		8	8
-	ATTACK2		10.0	99.0	0.5		HL			11		8	8
-	ATTACK3		99.0	99.0	0.5		H			12		8	8
-	AGROUND		99.0	99.0	0.5		G			13		4	4		0.0
-	AMOVING		99.0	99.0	0.5		H			14		8	8
-	ABLOCK		100.0	100.0
+	ATTACK1		6.0		16.0	0.5		L			6		8	8
+	ATTACK2		10.0	99.0	0.5		HL			7		8	8
+	ATTACK3		99.0	99.0	0.5		H			8		8	8
+	AGROUND		99.0	99.0	0.5		G			9		4	4		0.0
+	AMOVING		99.0	99.0	0.5		H			10		8	8
+	ABLOCK		6.0	1.0
 	#----------------
 	FLAGS		0x021
 END_COMBO
@@ -213,7 +213,7 @@ START_COMBO	PISTOL_WHIP
 	ATTACK3		99.0	99.0	0.5		H			12		1	2
 	AGROUND		99.0	99.0	0.5		G			13		4	4		0.0
 	AMOVING		99.0	99.0	0.5		H			14		1	2
-	ABLOCK		100.0	100.0
+	ABLOCK		6.0	2.0
 	#----------------
 	FLAGS		0x001
 END_COMBO
